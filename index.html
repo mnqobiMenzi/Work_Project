@@ -35,36 +35,64 @@
                 <nav class="logo-nav">
                     <ul>
                         <li>Canvas</li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><a href="#"><i class="fa fa-home"></i> HOME</a></li>
+                        <li><a href="#"><i class="fa fa-plane"></i> FLIGHTS</a></li>
+                        <li><a href="#"><i class="fa fa-hotel"></i> HOTELS</a></li>
+                        <li><a href="#"><i class="fa fa-gift"></i> HOLIDAYS</a></li>
+                        <li><a href="#"><i class="fa fa-pen"></i> BLOG</a></li>
+                        <li><a href="#"><i class="fa fa-phone"></i> 1800 105 2541</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <div class="main-content">
             <div class="tab">
-                <button class="tablinks" onclick="openCity(event,'something1')">Something</button>
-                <button class="tablinks" onclick="openCity(event,'something2')">Something</button>
-                <button class="tablinks" onclick="openCity(event,'something3')">Something</button>
-                <button class="tablinks" onclick="openCity(event,'something4')">Something</button>
+                <button class="tablinks" onclick="openCity(event,'flights')"><i class="fa fa-plane"></i> FLIGHTS</button>
+                <button class="tablinks" onclick="openCity(event,'Hotels')"><i class="fa fa-hotel"></i> HOTELS</button>
+                <button class="tablinks" onclick="openCity(event,'Flights_Hotels')">FLIGHTS + HOTELS <button type="submit" class="btn-save">Save</button></button>
+                <button class="tablinks" onclick="openCity(event,'Holidays')"><i class="fa fa-gift"></i> HOLIDAYS</button>
             </div>
 
-            <div id="something1" class="tabcontent">
-                <h3>Something Fishy</h3>
-                <p>Somthing goes here</p>
+            <div id="flights" class="tabcontent">
+                <form action="#" method="POST">
+                    <div class="main-content">
+                        <div class="header-content">
+                            <h2>BOOK YOUR FLIGHTS</h2>
+                            <button type="button" class="flight-btn">Domestic</button>
+                            <button type="button" class="flight-btn">International</button>
+                        </div>
+                        <div class="content">
+                            <label for="from">FROM</label>
+                            <input type="text" name="from" id="" class="inputs" placeholder="Eg.Gauteng, Johannesburg">
+                            <label for="to">TO</label>
+                            <input type="text" name="to" id="" class="inputs" placeholder="Eg.Western Cape,Cape Town">
+                            <label for="departure">DEPARTURE</label>
+                            <input type="date" name="" id="departure" class="inputs" placeholder="MM/DD/YYYY">
+                            <label for="return">RETURN</label>
+                            <input type="date" name="return" id="" class="inputs" placeholder="MM/DD/YYYY">
+                            <label for="adults">ADULTS</label>
+                            <input type="text" name="aduilts" id="" class="inputs" placeholder="2">
+
+                            <button type="button" class="btn-search">SEARCH FLIGHTS</button>
+                            <input type="text" name="aduilts" id="" class="input-search" placeholder="Advanced Search">
+                        </div>
+                    </div>
+
+                </form>
+
             </div>
-            <div id="something2" class="tabcontent">
-                <h3>Something Fishy</h3>
-                <p>Somthing goes here</p>
+
+            <div id="Hotels" class="tabcontent">
+
             </div>
-            <div id="something3" class="tabcontent">
-                <h3>Something Fishy</h3>
-                <p>Somthing goes here</p>
+
+            <div id="Flights_Hotels" class="tabcontent">
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
             </div>
-            <div id="something4" class="tabcontent">
-                <h3>Something Fishy</h3>
-                <p>Somthing goes here</p>
+            <div id="Holidays" class="tabcontent">
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
             </div>
         </div>
         <footer class="footer">
