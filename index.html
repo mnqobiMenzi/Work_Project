@@ -14,39 +14,48 @@
 </head>
 
 <body>
-    <div class="main">
+    <div class="container">
+
         <header class="header">
             <nav class="main-nav">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">FAQS</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a href="#">USD</a></li>
-                </ul>
+                <div class="col">
+                    <ul class="text">
+                        <li class="text"><a href="#">HOME</a></li>
+                        <li class="text"><a href="#">FAQS</a></li>
+                        <li class="text"><a href="#">CONTACT</a></li>
+                        <li class="text"><a href="#">USD <i class="fa fa-caret-down"></i></a></li>
+                    </ul>
+                    <ul class="icon">
+                        <li class="icon-list"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li class="icon-list"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="icon-list"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                        <li class="icon-list"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="icon-list"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        <li class="icon-list"><a href="#"><i class="fa fa-phone"></i></a></li>
+                    </ul>
 
-                <ul>
-                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                    <li><a href="#"><i class="fa fa-phone"></i></a></li>
-                </ul>
+                </div>
+
             </nav>
-            <div class="logo">
-                <nav class="logo-nav">
-                    <ul>
-                        <li>Canvas</li>
-                        <li><a href="#"><i class="fa fa-home"></i> HOME</a></li>
-                        <li><a href="#"><i class="fa fa-plane"></i> FLIGHTS</a></li>
-                        <li><a href="#"><i class="fa fa-hotel"></i> HOTELS</a></li>
-                        <li><a href="#"><i class="fa fa-gift"></i> HOLIDAYS</a></li>
-                        <li><a href="#"><i class="fa fa-pen"></i> BLOG</a></li>
-                        <li><a href="#"><i class="fa fa-phone"></i> 1800 105 2541</a></li>
+        </header>
+
+        <section class="sub-menu">
+            <div class="container">
+                <nav class="nav-sub-menu">
+                    <h3 class="heading">canvas
+                    </h3>
+                    <ul class="col">
+                        <li class="sub-list"><a href="#"><i class="fa fa-home"></i> HOME</a></li>
+                        <li class="sub-list"><a href="#"><i class="fa fa-plane"></i> FLIGHTS</a></li>
+                        <li class="sub-list"><a href="#"><i class="fa fa-hotel"></i> HOTEL</a></li>
+                        <li class="sub-list"><a href="#"><i class="fas fa-gift"></i> HOLIDAYS</a></li>
+                        <li class="sub-list"><a href="#"><i class="fa fa-pen"></i> BLOG</a></li>
+                        <li class="sub-list"><a href="#"><i class="fa fa-phone"></i> 1800 105 2541</a></li>
                     </ul>
                 </nav>
             </div>
-        </header>
+        </section>
+
         <div class="main-content">
             <div class="tab">
                 <button class="tablinks" onclick="openCity(event,'flights')"><i class="fa fa-plane"></i> FLIGHTS</button>
@@ -97,9 +106,6 @@
                 <p>This is for Holidays.</p>
             </div>
         </div>
-        <footer class="footer">
-
-        </footer>
     </div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" integrity="sha512-M+hXwltZ3+0nFQJiVke7pqXY7VdtWW2jVG31zrml+eteTP7im25FdwtLhIBTWkaHRQyPrhO2uy8glLMHZzhFog==" crossorigin="anonymous"></script>

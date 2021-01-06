@@ -1,9 +1,64 @@
-body {
-    font-family: 'Play', sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
-/* Style for the our tabs */
+/* Body styling */
+
+body {
+    background-image: url("/img/bg-img.jpg");
+    color: #fff;
+    font-family: 'Play', sans-serif;
+    background-size: cover;
+    line-height: 1.6em;
+}
+
+
+/* Navigation bar styling  */
+
+header {
+    margin-bottom: 40px;
+}
+
+nav.main-nav {
+    height: 70px;
+    weight: 100px;
+}
+
+nav.main-nav ul.icon {
+    float: right;
+    margin-right: 40px;
+}
+
+nav.main-nav ul.text {
+    float: left;
+    margin-right: 40px;
+}
+
+nav.main-nav li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+nav.main-nav a {
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 10px;
+}
+
+
+/* Dropdown nabar */
+
+
+/* Tab styling */
 
 .tab {
     overflow: hidden;
