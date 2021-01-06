@@ -1,3 +1,10 @@
+body {
+    font-family: 'Redressed', cursive;
+}
+
+
+/* Style for the our tabs */
+
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
