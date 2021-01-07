@@ -97,7 +97,7 @@ div.tab {
     overflow: hidden;
     /* border: 1px solid #ccc; */
     background-color: rgb(48, 44, 44, 1);
-    width: 43.8%;
+    width: 50%;
 }
 
 
@@ -131,20 +131,45 @@ div.tabcontent {
     border-top: 0.15rem solid rgb(241, 72, 72);
     background-color: rgb(225, 225, 225, 0.9);
     color: black;
-    height: 25rem;
+    height: 25.8rem;
+    width: 58rem;
 }
 
+
+/* Style the header content */
+
 div.header-content {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 h6.advance-search {
     color: rgb(241, 72, 72);
     text-decoration: underline;
     float: right;
-    margin-right: 10rem;
+    margin-right: 1rem;
 }
 
 div.buttons {
-    margin-right: 10rem;
+    margin-right: 1rem;
+}
+
+.form-control-lg {
+    height: 3.2rem;
+    width: 50rem;
+}
+
+div.adult {
+    width: 10rem;
+    float: right;
+}
+
+#save {
+    color: #fff;
+    background-color: rgb(241, 72, 72);
+    width: 4rem;
+    border-radius: 0.1rem;
+}
+
+#save:hover {
+    text-decoration: none;
 }
