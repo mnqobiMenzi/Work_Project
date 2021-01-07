@@ -85,6 +85,11 @@ nav.nav-sub-menu a:hover {
     text-decoration: none;
 }
 
+nav.nav-sub-menu ul li.active a {
+    border: 0.1px solid white;
+    padding: 0.5rem;
+}
+
 
 /* Tab styling */
 

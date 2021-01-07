@@ -1,5 +1,5 @@
 function openCity(evt, cityName) {
-    // Declare all variables
+    // variables
     var i, tabcontent, tablinks;
 
     // Get all elements with class="tabcontent" and hide them
@@ -18,3 +18,8 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+//Active
+$(document).on('click', 'ul li', function() {
+    $(this).addClass('active').siblings().removeClass('active')
+})
