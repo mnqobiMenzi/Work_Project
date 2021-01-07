@@ -49,7 +49,7 @@
                         <li class="sub-list"><a href="#"><i class="fas fa-gift"></i> HOLIDAYS</a></li>
                         <li class="sub-list"><a href="#"><i class="fa fa-hotel"></i> HOTEL</a></li>
                         <li class="sub-list"><a href="#"><i class="fa fa-plane"></i> FLIGHTS</a></li>
-                        <li class="sub-list active"><a href="index.html" class="active"><i class="fa fa-home"></i> HOME</a></li>
+                        <li class="sub-list active"><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
                     </ul>
                 </nav>
             </div>
@@ -59,43 +59,93 @@
             <div class="tab">
                 <button class="tablinks" onclick="openCity(event,'flights')"><i class="fa fa-plane"></i> FLIGHTS</button>
                 <button class="tablinks" onclick="openCity(event,'Hotels')"><i class="fa fa-hotel"></i> HOTELS</button>
-                <button class="tablinks" onclick="openCity(event,'Flights_Hotels')">FLIGHTS + HOTELS <button type="submit" class="btn-save">Save</button></button>
+                <button class="tablinks" onclick="openCity(event,'Flights_Hotels')">FLIGHTS + HOTELS  <!--<a href="#" class="btn btn-danger flights-save" type="button">Save </a>--></button>
                 <button class="tablinks" onclick="openCity(event,'Holidays')"><i class="fa fa-gift"></i> HOLIDAYS</button>
             </div>
 
             <div id="flights" class="tabcontent">
                 <form action="#" method="POST">
-                    <div class="main-content">
+                    <div class="container">
                         <div class="header-content">
-                            <h2>BOOK YOUR FLIGHTS</h2>
-                            <button type="button" class="flight-btn">Domestic</button>
-                            <button type="button" class="flight-btn">International</button>
+                            <div class="row">
+                                <div class="col">
+                                    <h2>BOOK YOUR FLIGHTS</h2>
+                                </div>
+                                <div class="row buttons">
+                                    <button type="button" class="btn btn-danger flight-btn">Domestic</button>
+                                    <button type="button" class="btn btn-light flights-btn">International</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="content">
-                            <label for="from">FROM</label>
-                            <input type="text" name="from" id="" class="inputs" placeholder="Eg.Gauteng, Johannesburg">
-                            <label for="to">TO</label>
-                            <input type="text" name="to" id="" class="inputs" placeholder="Eg.Western Cape,Cape Town">
-                            <label for="departure">DEPARTURE</label>
-                            <input type="date" name="" id="departure" class="inputs" placeholder="MM/DD/YYYY">
-                            <label for="return">RETURN</label>
-                            <input type="date" name="return" id="" class="inputs" placeholder="MM/DD/YYYY">
-                            <label for="adults">ADULTS</label>
-                            <input type="text" name="aduilts" id="" class="inputs" placeholder="2">
-
-                            <button type="button" class="btn-search">SEARCH FLIGHTS</button>
-                            <input type="text" name="aduilts" id="" class="input-search" placeholder="Advanced Search">
+                        <div class="header-content">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row-cols-sm-1">
+                                        <label for="from">FROM</label>
+                                    </div>
+                                    <div class="row-cols-sm-1">
+                                        <input type="text" name="from" id="" class="form-control" placeholder="Eg.Gauteng, Johannesburg">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row-cols-xl-1">
+                                        <label for="to">TO</label>
+                                    </div>
+                                    <div class="row-cols-xl-1">
+                                        <input type="text" name="to" id="" class="form-control" placeholder="Eg.Western Cape,Cape Town">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-content">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row-cols-xl-1">
+                                        <label for="departure">DEPARTURE</label>
+                                    </div>
+                                    <div class="row-cols-xl-1">
+                                        <input type="date" name="" id="departure" class="form-control" placeholder="MM/DD/YYYY">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row-cols-xl-1">
+                                        <label for="return">RETURN</label>
+                                    </div>
+                                    <div class="row-cols-xl-1">
+                                        <input type="date" name="return" id="" class="form-control" placeholder="MM/DD/YYYY">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row-cols-xl-1">
+                                        <label for="adults">ADULTS</label>
+                                    </div>
+                                    <div class="row-cols-xl-1">
+                                        <input type="text" name="aduilts" id="" class="form-control" placeholder="2">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-content">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row-cols-xl-1">
+                                        <button type="button" class="btn btn-danger">SEARCH FLIGHTS</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row-cols-xl-1">
+                                        <h6 class="advance-search">Advanced Search</h6>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </form>
-
             </div>
-
             <div id="Hotels" class="tabcontent">
-
+                <h3>Hotels</h3>
+                <p>This is for Hotels</p>
             </div>
-
             <div id="Flights_Hotels" class="tabcontent">
                 <h3>Flights and Hotels</h3>
                 <p>This is for Flights</p>
