@@ -13,7 +13,7 @@ html {
 /* Body styling */
 
 body {
-    background-image: url("img/bg-img.jpg");
+    background-image: url("/img/bg-img.jpg");
     color: #fff;
     font-family: 'Play', sans-serif;
     background-size: cover;
