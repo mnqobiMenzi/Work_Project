@@ -30,6 +30,11 @@ header {
 nav.main-nav {
     height: 70px;
     weight: 100px;
+    margin-right: 10rem;
+}
+
+nav.main-nav ul {
+    margin-right: 40rem;
 }
 
 nav.main-nav ul.icon {
@@ -58,6 +63,19 @@ nav.main-nav a:hover {
     text-decoration: none;
 }
 
+li.vertical {
+    border-right: 1px solid #fff;
+    text-align: center;
+    padding-right: 1.1em;
+    height: 4.4rem;
+}
+
+div.nav-border {
+    border-bottom: 1px solid #fff;
+    margin-top: 0;
+    margin-left: 1rem;
+}
+
 
 /* Sub menu styling */
 
@@ -69,6 +87,7 @@ nav.nav-sub-menu {
 nav.nav-sub-menu h3.heading {
     float: left;
     margin-left: 20px;
+    font-size: xx-large;
 }
 
 nav.nav-sub-menu ul li.sub-list {
@@ -98,6 +117,7 @@ div.tab {
     /* border: 1px solid #ccc; */
     background-color: rgb(48, 44, 44, 1);
     width: 50%;
+    margin-left: 2rem;
 }
 
 
@@ -133,6 +153,7 @@ div.tabcontent {
     color: black;
     height: 25.8rem;
     width: 58rem;
+    margin-left: 2rem;
 }
 
 
